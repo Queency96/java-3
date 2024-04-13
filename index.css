@@ -1,0 +1,25 @@
+
+
+img {
+  height: 250px;
+}
+
+.desc {
+  overflow: hidden;
+  line-height: 1.2em;
+  max-height: 3.6em;
+  position: relative;
+  padding: 2px 20px 2px 0px;
+}
+
+.desc::after {
+  content: '...';
+  position: absolute;
+  bottom: -3px;
+  right: 0px;
+  font-weight: 800;
+}
+
+.card-title {
+  font-size: 18px;
+}
